@@ -1,12 +1,3 @@
-// const request = require("request");
-
-// const fetchBreedDescription = function(breedName, callback) {
-//   let URL = 'https://api.thecatapi.com/v1/breeds/search?q=' + breedName;
-
-//   request(URL, (error, response, body) => {
-//     console.log('statusCode:', response && response.statusCode));
-//   }
-// }
 const request = require("request");
 
 const fetchBreedDescription = function (breedName, callback) {
